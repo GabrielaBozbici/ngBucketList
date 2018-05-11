@@ -1,0 +1,13 @@
+<div class="container color-dark md-dialog-content">
+    <div class="col">
+      <p>Edit your life goal</p>
+    </div>
+  </div>
+  <div class="container forms color-dark">
+    <div class="col2">
+      <form>
+        <input type="text" class="txt" name="item" class="formular" [(ngModel)]="goalTextEdited.text"> 
+        <input type="submit" class="btn" [value]="submitBtn" (click)="submitItem(data[1])">
+      </form>
+    </div>
+  </div>
